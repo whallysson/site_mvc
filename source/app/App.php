@@ -8,7 +8,7 @@ use Source\Support\Message;
 
 class App extends Controller
 {
-    public function __construtc() 
+    public function __construct() 
     {
         parent::__construct(__DIR__ . "/../../themes/" . CONF_VIEW_APP);
 
